@@ -1,4 +1,1 @@
-
-const btn = document.querySelector('.menu-btn');
-const nav = document.querySelector('.navlinks');
-if(btn && nav){btn.addEventListener('click',()=>nav.classList.toggle('open'));}
+const b=document.querySelector('.menu-btn'),n=document.querySelector('.navlinks');if(b&&n)b.addEventListener('click',()=>n.classList.toggle('open'));
