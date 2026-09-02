@@ -156,6 +156,7 @@ section{
   color:#f5efe4;
 }
 
+
 .product-card h3{
   color:#f1d397;
 }
@@ -214,4 +215,10 @@ footer{
 .brand{
   color:#9a6a1f;
   font-weight:600;
+}
+/* Aktiver Menüpunkt in kräftigem WiederSchick-Gold */
+.navlinks a.active,
+.navlinks a:hover{
+  color:#9a6a1f;
+  border-bottom-color:#9a6a1f;
 }
