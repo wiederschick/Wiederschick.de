@@ -210,3 +210,8 @@ section,
 footer{
   color:#4b443c;
 }
+/* Logo auf hellem Hintergrund kräftiger */
+.brand{
+  color:#9a6a1f;
+  font-weight:600;
+}
