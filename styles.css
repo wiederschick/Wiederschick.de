@@ -222,3 +222,10 @@ footer{
   color:#9a6a1f;
   border-bottom-color:#9a6a1f;
 }
+/* Kaufen-anfragen Button */
+.product-card .btn{
+  background:var(--gold);
+  color:#111;
+  border-color:var(--gold);
+  font-weight:600;
+}
