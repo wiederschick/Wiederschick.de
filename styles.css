@@ -170,3 +170,43 @@ footer{
 .hero{
   color:#f5efe4;
 }
+/* ===== WiederSchick Ecru Feinschliff ===== */
+
+body,
+.content,
+.page-head,
+section{
+  background:#e8dfd2;
+}
+
+.content.alt,
+.tabs,
+footer{
+  background:#ded3c3;
+}
+
+.content,
+.page-head,
+section,
+.tabs strong,
+.statement,
+.cards article{
+  color:#16130f;
+}
+
+.content p,
+.notice{
+  color:#3a342d;
+}
+
+.tabs span{
+  color:#c99b42;
+}
+
+.eyebrow{
+  color:#b8872f;
+}
+
+footer{
+  color:#4b443c;
+}
