@@ -66,3 +66,107 @@ footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;paddin
   display:inline-block;
   margin-top:8px;
 }
+/* ===== WiederSchick Ecru-Testdesign ===== */
+
+body{
+  background:#f3ede2;
+  color:#171512;
+}
+
+/* Hauptbereiche */
+.content{
+  background:#f3ede2;
+  color:#171512;
+}
+
+.content.alt{
+  background:#ebe2d4;
+}
+
+.content p{
+  color:#38332d;
+}
+
+/* Navigation */
+.topnav{
+  background:rgba(243,237,226,.96);
+  border-bottom:1px solid rgba(120,90,45,.25);
+}
+
+.brand span{
+  color:#171512;
+}
+
+.navlinks a{
+  color:#171512;
+}
+
+.menu-btn{
+  color:#171512;
+  background:#f3ede2;
+}
+
+/* Mobile Menü */
+@media(max-width:1200px){
+  .navlinks{
+    background:rgba(243,237,226,.99);
+  }
+}
+
+/* Bereiche / Karten außerhalb des Shops */
+.tabs{
+  background:#ebe2d4;
+}
+
+.tabs strong{
+  color:#171512;
+}
+
+.tabs small{
+  color:#6f675d;
+}
+
+.cards article{
+  background:#eee6da;
+  color:#171512;
+}
+
+.statement{
+  background:#eee6da;
+  color:#171512;
+}
+
+/* Shop-Seiten */
+.page-head,
+section{
+  background:#f3ede2;
+  color:#171512;
+}
+
+.notice{
+  color:#38332d;
+}
+
+/* Produktkarten bleiben bewusst dunkel */
+.product-card{
+  background:#0b0b0b;
+}
+
+.product-card p{
+  color:#f5efe4;
+}
+
+.product-card h3{
+  color:#f1d397;
+}
+
+/* Footer */
+footer{
+  background:#ebe2d4;
+  color:#514b43;
+}
+
+/* Startseiten-Hero bleibt dunkel/elegant */
+.hero{
+  color:#f5efe4;
+}
