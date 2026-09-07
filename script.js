@@ -16,3 +16,14 @@ if (!document.querySelector('script[src*="static.cloudflareinsights.com/beacon.m
   );
   document.body.appendChild(cf);
 }
+// Widerruf-Link automatisch in allen Footern ergänzen
+document.querySelectorAll('.footer-links').forEach(footer => {
+  if (!footer.querySelector('a[href="widerruf.html"]')) {
+    const link = document.createElement('a');
+    link.href = 'widerruf.html';
+    link.textContent = 'Widerruf';
+
+    footer.appendChild(document.createTextNode(' · '));
+    footer.appendChild(link);
+  }
+});
